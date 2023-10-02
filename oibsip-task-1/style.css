@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@400;700&display=swap');
+
+:root{
+    --color:#333;
+}
+
+body{
+    font-family: 'Red Hat Text', sans-serif;
+    margin: 0;
+}
+
+.container{
+    text-align: center;
+    color: black;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image:url(https://img.peapix.com/9d7c0ee140684923baab02afd37e4834_1080.jpg) ;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 6rem;
+}
+
+.first{
+    color: white;
+}
+
+.first p{
+    margin-top: -50px;
+}
+
+p{
+    max-width: 52ch;
+    line-height: 1.5;
+    padding:1em;
+}
+
+a{
+   display: inline-block;
+   padding: 1em 3.5em;
+   background-color: var(--color);
+   color: white;
+   text-decoration: none; 
+   text-transform: uppercase;
+   border-radius: 0.3em;
+   font-weight: 400;
+   letter-spacing: .5px;
+   font-size: .875rem;
+}
+
+.second{
+    background-image: url(https://wallpapercave.com/wp/2533zk2.jpg);
+    background-attachment: fixed;
+    height: 100%;
+}
+
+.card a{
+    margin-bottom: 2em;
+}
+
+h3{
+    font-weight: 700;
+    font-size: 1.6rem;
+    margin:1em;
+}
+
+.item{
+    display: flex;
+    max-width: 320px;
+    background-color: white;
+    flex-direction: column;
+    align-items: center;
+    border-radius: .5em;
+    box-shadow: 0px 29px 38px -15px rgba(0,0,0,0.43);
+}
+
+.img{
+    width: 90%;
+    height: 200px;
+    background-color: lightgrey;
+    background-size:cover;
+    background-position: center;
+    margin-top: 20px;
+    border-radius: .3em;
+}
+
+.img-first{
+    background-image: url(https://lp-cms-production.imgix.net/news/2018/01/taj-mahal-visitor-limits.jpg?auto=format&q=75);
+}
+
+.img-second{
+    background-image: url(https://images.unsplash.com/photo-1551161242-b5af797b7233?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2hhcm1pbmFyfGVufDB8fDB8fHww&w=1000&q=80);
+}
+
+.img-third{
+    background-image: url(https://images.unsplash.com/photo-1614082242765-7c98ca0f3df3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Z29hfGVufDB8fDB8fHww&w=1000&q=80);
+}
+
+.card p{
+    margin-top: -20px;;
+}
+
+.second{
+    flex-direction: row;
+    gap: 1.6em;
+}
+
+footer{
+    padding: 20px;
+    text-align: center;
+}
